@@ -1,0 +1,44 @@
+body {
+    background: url("assets/Fundo-share.jpeg") no-repeat fixed;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.card {
+    margin-top: 1rem;
+}
+
+#ProtocoloGerenciado {
+    color: black;
+}
+
+#PanoramaClinico {
+    color: black;
+}
+
+#ProntoAtendimento {
+    color: black;
+}
+
+#ProcessoCirurgico {
+    color: black;
+}
+
+#LinkedData {
+    color: black;
+}
+
+#ProtocoloSepse {
+    color: black;
+}
+
+#tituloInstrutores {
+    margin-top: 1.5em;
+
+}

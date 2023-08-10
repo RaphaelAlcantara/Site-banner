@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EducationLAB</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">    
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+
+                <a href="index.html"><img src="assets/LogoBranco.png" alt="EducationLab" width="50" height="50"></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+        
+                    <li class="nav-item">
+                        <a class="nav-link" href="Instrutores.html">Instrutores</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <h1 class="text-center mx-auto p-4">Catálogo de treinamentos</h1>
+
+<div class="container text-center ">
+
+    <!--Protocolo Gerenciado-->
+    <div class="row">
+        <div class="col-xxl-4">
+            <div class="card" style="width: 20rem; height: 28rem;">
+                <img src="assets/protocoloGerenciado.png" class="card-img-top" alt="Protocolo Gerenciado">
+                <div class="card-body">
+                    <h4 class="card-title">Protocolo Gerenciado</h4>
+                    <p class="card-body">Para alavancar os benefícios clínicos e financeiros</p>
+                    <p class="card-text"><b>Data:</b> 21 de Setembro de 2023</p>
+                    <p class="card-text"><b>Valor:</b> R$ 546,00</p>
+                    <button type="button" class="btn btn-primary position-absolute bottom-0 start-50 translate-middle-x m-1" data-bs-toggle="modal" data-bs-target="#ProtocoloGerenciado">
+                        Saiba mais
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Protocolo Gerenciado-->
+        <div class="modal fade" id="ProtocoloGerenciado" tabindex="-1" aria-labelledby="ProtocoloGerenciadoLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="ProtocoloGerenciadoModalLabel">Protocolo Gerenciado | Carga horária: 3 horas</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-start">
+                        <h5>Informações:</h5>
+                        <p><b>Instrutor:</b> Renato Bruxel</p>
+                        <p><b>Horário:</b> 14:00 às 17:00</p>
+                        
+                        <h5>Descrição:</h5>
+                        <p>Protocolos Gerenciados são instrumentos utilizados pelos profissionais assistenciais para acelerar o processo de decisão
+                        clínica, baseados em conteúdo clínico amplamente utilizado internacionalmente.
+                        Podem auxiliar na padronização dos, promovendo benefícios clínicos e financeiros, quando bem aplicados e gerenciados.</p>
+                        <br>
+                        <h4>Principais tópicos abordados:</h4>
+                        <ul class="list-group">
+                            <li class="list-group-item">Principais objetivos e benefícios do uso dos protocolos gerenciados</li>
+                            <li class="list-group-item">Capacidades do uso</li>
+                            <li class="list-group-item">Cadastros envolvidos no processo de criação de um alerta no Mentor</li>
+                            <li class="list-group-item">Como aplicar um alerta com ação configurado no mentor</li>
+                            <li class="list-group-item">Cadastros envolvidos no processo de criação de um protocolo gerenciado</li>
+                            <li class="list-group-item">Como aplicar um alerta com protocolo gerenciado configurado no mentor</li>
+                            <li class="list-group-item">Usabilidade dos protocolos gerenciados no Prontuário Eletrônico do Paciente</li>
+                        </ul>
+
+                    </div>
+                    
+                    <div class="modal-footer">
+                        <a href="Instrutores.html">
+                            <button type="button" class="btn btn-secondary">
+                            Conheça os instrutores
+                            </button>
+                        </a>
+                        
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+<!--Panorama Clinico-->
+        <div class="col-xxl-4">
+            <div class="card" style="width: 20rem; height: 28rem;">
+                <img src="assets/Panorama Clinico.png" class="card-img-top" alt="Panorama Clinico">
+                <div class="card-body">
+                    <h4 class="card-title">Panorama Clínico</h4>
+                    <p class="card-body">A função que maximiza a eficiência e qualidade no atendimento</p>
+                    <p class="card-text"><b>Data:</b> 10 de Outubro de 2023</p>
+                    <p class="card-text"><b>Valor:</b> R$ 546,00</p>
+                    <button type="button" class="btn btn-primary position-absolute bottom-0 start-50 translate-middle-x m-1"
+                        data-bs-toggle="modal" data-bs-target="#PanoramaClinico">
+                        Saiba mais
+                    </button>
+                </div>
+            </div>
+        </div>
+
+<!-- Modal Panorama Clinico-->
+<div class="modal fade" id="PanoramaClinico" tabindex="-1" aria-labelledby="PanoramaClinicoLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="PanoramaClinicoModalLabel">Panorama Clínico | Carga horária: 3 horas</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-start">
+                <h5>Informações:</h5>
+                <p><b>Instrutor:</b> Elis Alessandra</p>
+                <p><b>Horário:</b> 13:30 às 16:30</p>
+                
+                <h5>Descrição:</h5>
+                <p>Este curso oferece um estudo síncrono e abrangente sobre o Panorama Clínico (Patient Census) no sistema Tasy. O objetivo
+                é permitir aos participantes uma compreensão clara e completa das funcionalidades do software e de como usar eficazmente
+                essas funcionalidades para maximizar a eficiência e a qualidade do atendimento ao paciente.</p>
+                <br>
+                <h5>Principais tópicos abordados:</h5>
+                <ul class="list-group">
+                    <li class="list-group-item">Introdução ao Panorama Clínico (Patient Census): Compreensão do que é o Panorama Clínico, sua importância no contexto da
+                    saúde e como ele pode ser efetivamente utilizado em um software clínico.</li>
+                    <li class="list-group-item">Funcionalidades do Software: Uma visão geral das funcionalidades do software relacionadas ao Panorama Clínico, incluindo
+                    como acessar, visualizar e interpretar o Patient Census.</li>
+                    <li class="list-group-item">Atualização e Manutenção do Panorama Clínico: Detalhes sobre como manter o Panorama Clínico atualizado no software,
+                    garantindo que os dados refletem com precisão o status atual dos pacientes.</li>
+                    <li class="list-group-item">Análise do Panorama Clínico: Discussão sobre como analisar e interpretar os dados do Panorama Clínico, com foco em
+                    identificar tendências, padrões e áreas de preocupação.</li>
+                    <li class="list-group-item">Aplicação Prática do Panorama Clínico: Exemplos de como usar as informações do Panorama Clínico para melhorar a gestão
+                    do atendimento ao paciente, alocar recursos e tomar decisões informadas.
+                    </li>
+                    <li class="list-group-item">Esses tópicos proporcionam uma visão abrangente e detalhada do Panorama Clínico e de como ele pode ser efetivamente
+                    gerenciado e utilizado em um software clínico.
+                    </li>
+                </ul>
+
+            </div>
+            <div class="modal-footer">
+                <a href="Instrutores.html">
+                    <button type="button" class="btn btn-secondary">
+                        Conheça os instrutores
+                    </button>
+                </a>
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Pronto Atendimento-->
+        <div class="col-xxl-4">
+            <div class="card" style="width: 20rem; height: 28rem;">
+                <img src="assets/prontoAtendimento.png" class="card-img-top" alt="Pronto Atendimento">
+                <div class="card-body">
+                    <h4 class="card-title">Pronto Atendimento</h4>
+                    <p class="card-body">A função que agiliza o processo de atendimento da emergência</p>
+                    <p class="card-text"><b>Data:</b> 24 e 25 de Outubro de 2023</p>
+                    <p class="card-text"><b>Valor:</b> R$ 1.092,00</p>
+                    <button type="button" class="btn btn-primary position-absolute bottom-0 start-50 translate-middle-x m-1"
+                        data-bs-toggle="modal" data-bs-target="#ProntoAtendimento">
+                        Saiba mais
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <!-- Modal Pronto Atendimento-->
+
+<div class="modal fade" id="ProntoAtendimento" tabindex="-1" aria-labelledby="ProntoAtendimentoLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="ProntoAtendimentoModalLabel">Pronto Atendimento | Carga horária: 6 horas</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-start">
+                <h5>Informações:</h5>
+                <p><b>Instrutor:</b> Patrícia Lopes</p>
+                <p><b>Horário:</b> 08:00 às 11:00</p>
+                
+                <h5>Descrição:</h5>
+                <p>Pronto Atendimento é uma funcionalidade do sistema Tasy que atende ao fluxo do processo de atendimento do paciente
+                durante a admissão na recepção do pronto atendimento, da triagem classificatória de risco, da consulta médica, do
+                atendimento na sala de observação e da alta, transferência ou internação hospitalar.</p>
+                <br>
+                <h5>Principais tópicos abordados:</h5>
+                <ul class="list-group">
+                    <li class="list-group-item">Importância do Pronto Atendimento no ambiente hospitalar.</li>
+                    <li class="list-group-item">Saber quem são os principais profisisonais da saúde e suas atribuições – Recepcionista, Enfermeira e Médico.</li>
+                </ul>
+
+            </div>
+            <div class="modal-footer">
+                <a href="Instrutores.html">
+                    <button type="button" class="btn btn-secondary">
+                        Conheça os instrutores
+                    </button>
+                </a>
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!--Processo Cirurgico-->
+    <div class="row">
+        <div class="col-xxl-4">
+            <div class="card" style="width: 20rem; height: 28rem;">
+                <img src="assets/processo cirurgico.png" class="card-img-top" alt="Processo Cirurgico">
+                <div class="card-body">
+                    <h4 class="card-title">Processo Cirúrgico</h4>
+                    <p class="card-body">A função que organiza seu período perioperatório</p>
+                    <p class="card-text"><b>Data:</b> 07 e 08 de Novembro de 2023</p>
+                    <p class="card-text"><b>Valor:</b> R$ 1.092,00</p>
+                    <button type="button" class="btn btn-primary position-absolute bottom-0 start-50 translate-middle-x m-1"
+                        data-bs-toggle="modal" data-bs-target="#ProcessoCirurgico">
+                        Saiba mais
+                    </button>
+                </div>
+            </div>
+        </div>
+
+<!-- Modal Processo Cirurgico-->
+<div class="modal fade" id="ProcessoCirurgico" tabindex="-1" aria-labelledby="ProcessoCirurgicoLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="ProcessoCirurgicoModalLabel">Processo Cirúrgico | Carga horária: 6 horas</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-start">
+                <h5>Informações:</h5>
+                <p><b>Instrutor:</b> Paula Torres</p>
+                <p><b>Horário:</b> 09:00 às 12:00</p>
+                
+                <h5>Descrição:</h5>
+                <p>O período perioperatório compreende as três fases distintas de qualquer procedimento cirúrgico: Pré-operatório,
+                Intraoperatório e Pós-operatório.
+                No período pré-operatório o anestesista acessa a função Avaliação Pré-Anestésica Eletrônica para avaliar as condições do
+                paciente, os riscos e desenvolver um plano de anestesia com prescrição pré-anestésica. Isso é a base clínica para
+                garantir segurança do paciente sob sedação.
+                A fase intraoperatória envolve a cirurgia propriamente dita. Inicia-se com a transferência do paciente ao centro
+                cirúrgico e termina com sua ida à unidade de Recuperação Pós-Anestésica (RPA). Nesta fase a monitorização é um
+                componente essencial dos cuidados de anestesia. Via a função Prontuário Eletrônico Perioperatório (PEPO) o profissional
+                acessa o Gráfico Anestésico, que apresenta sinais vitais, balanço hídrico, hemoderivados, entre outros itens para
+                monitoramento das variáveis fisiológicas do paciente durante o procedimento.
+                A fase pós-operatória é o período imediatamente a seguir à cirurgia e centra-se principalmente no acompanhamento e
+                gestão da saúde fisiológica do paciente na recuperação pós-cirúrgica. Na função PEPO a equipe de cuidados pode incluir
+                dados clínicos e manter os escores da RPA para uma alta segura do setor.</p>
+                <br>
+                <h5>Principais tópicos abordados:</h5>
+                <ul class="list-group">
+                    <li class="list-group-item">Avaliação pré-anestésica.</li>
+                    <li class="list-group-item">Início da cirurgia e tempos e movimentos</li>
+                </ul>
+
+            </div>
+            <div class="modal-footer">
+                <a href="Instrutores.html">
+                    <button type="button" class="btn btn-secondary">
+                        Conheça os instrutores
+                    </button>
+                </a>
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--Template Linked Data-->    
+        <div class="col-xxl-4">
+            <div class="card" style="width: 20rem; height: 28rem;">
+                <img src="assets/Linked data.png" class="card-img-top" alt="Template Linked Data">
+                <div class="card-body">
+                    <h4 class="card-title">Template Linked Data</h4>
+                    <p class="card-body">Todos os seus templates são personalizados e ajustavéis</p>
+                    <p class="card-text"><b>Data:</b> 21 de Novembro de 2023</p>
+                    <p class="card-text"><b>Valor:</b> R$ 546,00</p>
+                    <button type="button" class="btn btn-primary position-absolute bottom-0 start-50 translate-middle-x m-1"
+                        data-bs-toggle="modal" data-bs-target="#LinkedData">
+                        Saiba mais
+                    </button>
+                </div>
+            </div>
+        </div>
+
+<!-- Modal Template Linked Data-->
+<div class="modal fade" id="LinkedData" tabindex="-1" aria-labelledby="LinkedDataLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="LinkedDataModalLabel">Template Linked Data | Carga horária: 3 horas</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-start">
+                <h5>Informações:</h5>
+                <p><b>Instrutor:</b> Tamiris Alves</p>
+                <p><b>Horário:</b> 13:30 às 16:30</p>
+                
+                <h5>Descrição:</h5>
+                <p>O Linked Data é uma sub funcionalidade do sistema Tasy dentro dos Templates do Prontuário Eletrônico do Paciente, que
+                visa disponibilizar uma nova forma de utilização dos templates, tornando-os ainda mais configuráveis, mantendo a
+                integridade referencial das informações clínicas e facilitando a entrada de dados no PEP em workflows, onde a criação de
+                um formulário estruturado e personalizado é necessária.</p>
+                <br>
+                <h5>Principais tópicos abordados:</h5>
+                <ul class="list-group">
+                    <li class="list-group-item">O que é o Template Linked Data.</li>
+                    <li class="list-group-item">Qual a diferença entre Template Linked Data e Avaliações</li>
+                    <li class="list-group-item">Quando utilizer os Templates Linked Data</li>
+                    <li class="list-group-item">Benefícios em utilizer os Templates Liked Data</li>
+                    <li class="list-group-item">Cadastros envolvidos para criar os Templates Liked Data</li>
+                </ul>
+
+            </div>
+            <div class="modal-footer">
+                <a href="Instrutores.html">
+                    <button type="button" class="btn btn-secondary">
+                        Conheça os instrutores
+                    </button>
+                </a>
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Protocolo de Sepse-->
+        <div class="col-xxl-4">
+            <div class="card" style="width: 20rem; height: 28rem;">
+                <img src="assets/protocolo de sepse.png" class="card-img-top" alt="Protocolo de Detecção de Sepse">
+                <div class="card-body">
+                    <h4 class="card-title">Protocolo de Detecção de sepse</h4>
+                    <p class="card-body">A função que traz a mais precisa identificação do paciente</p>
+                    <p class="card-text"><b>Data:</b> 06 e 07 de Dezembro de 2023</p>
+                    <p class="card-text"><b>Valor:</b> R$ 1.092,00</p>
+                    <button type="button" class="btn btn-primary position-absolute bottom-0 start-50 translate-middle-x m-1"
+                        data-bs-toggle="modal" data-bs-target="#ProtocoloSepse">
+                        Saiba mais
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+<!-- Modal Protocolo de Sepse-->
+<div class="modal fade" id="ProtocoloSepse" tabindex="-1" aria-labelledby="ProtocoloSepseLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="ProtocoloSepseModalLabel">Protocolo de Detecção de Sepse | Carga horária: 6 horas</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-start">
+                <h5>Informações:</h5>
+                <p><b>Instrutor:</b> Sheila Lemos</p>
+                <p><b>Horário:</b> 13:30 às 16:30</p>
+
+                <h5>Descrição:</h5>
+                <p>Este treinamento é destinado a todos aqueles que desejam conhecer a funcionalidade “Protocolo de Detecção Precoce de
+                Sepse Adulto e Pediátrico” segundo o Instituto Latino Americano de Sepse.
+                O Tasy possui um protocolo de Sepse que viabiliza uma padronização do processo de detecção da Sepse, assegurando a
+                identificação do paciente com critérios positivos para Sepse, auxiliando na minimização dos desfechos negativos e
+                proporcionando melhor efetividade do tratamento.
+                O protocolo segue a preconização do Instituto Latino Americano de Sepse – ILAS</p>
+                <br>
+                <h5>Principais tópicos abordados:</h5>
+                <ul class="list-group">
+                    <li class="list-group-item">O que é Protocolo de Detecção Precoce de Sepse</li>
+                    <li class="list-group-item">Identificar os requisitos necessários para utilização da funcionalidade</li>
+                    <li class="list-group-item">Benefícios em utilizar a funcionalidade</li>
+                    <li class="list-group-item">Entender as funções envolvidas no processo é um fluxograma de melhor prática no sistema</li>
+                    <li class="list-group-item">Cadastros envolvidos, através das funções “Cadastros PEP” e “Suporte à Decisão Clínica”</li>
+                    <li class="list-group-item">Como aplicar o “Protocolo de Detecção Precoce de Sepse” com as ações do sistema.</li>
+                </ul>
+
+            </div>
+            <div class="modal-footer">
+                <a href="Instrutores.html">
+                    <button type="button" class="btn btn-secondary">
+                        Conheça os instrutores
+                    </button>
+                </a>
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div>
+        <h3 class="text-center mx-auto p-4">Contate seu gestor de vendas</h3>
+    </div>
+</footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
