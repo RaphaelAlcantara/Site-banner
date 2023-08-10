@@ -38,12 +38,12 @@ body {
     color: black;
 }
 
-#tituloInstrutores {
-    margin-top: 1.5em;
+#titulo {
+    margin-top: 1.4em;
 
 }
 
-.teste {
+.catalogo {
     display: flex;
     justify-content: center;
     align-items: center;
