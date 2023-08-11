@@ -10,6 +10,22 @@ body {
     width: 100%;
 }
 
+.botaoFechar {
+    /*laranja*/
+    background-color: #F4A400;
+    border: none;
+    color: white;
+    padding: 0.5em 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.botaoFechar:hover {
+    background-color: #FFBB33;
+    color: #fff;
+}
+
 .card {
     margin-top: 1rem;
 }
@@ -38,8 +54,8 @@ body {
     color: black;
 }
 
-#titulo {
-    margin-top: 1.4em;
+.titulo {
+    margin-top: 1em;
 
 }
 
@@ -80,4 +96,96 @@ body {
     margin-left: .1em;
     /*sublinhar*/
     text-decoration: underline;
+}
+
+
+footer {
+    background-color: #05347a;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social_list {
+
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    flex-direction: row;
+    margin-bottom: 1em;
+}
+
+.social_list i {
+    cursor: pointer;
+    font-size: 1.5em;
+    margin: 0 1em;
+}
+
+.facebook {
+    border: 1px solid #6286e0;
+    border-radius: 5px;
+}
+
+.facebook a {
+    color: #ffffff;
+}
+
+.facebook a:hover {
+    color: #6286e0;
+    /*quadrado ao redor*/
+
+}
+
+.youtube {
+    border: 1px solid #FF0000;
+    border-radius: 5px;
+}
+
+.youtube a {
+    color: #ffffff;
+}
+
+.youtube a:hover {
+    color: #FF0000;
+}
+
+.instagram {
+    border: 1px solid #e1306c;
+    border-radius: 5px;
+}
+
+.instagram a {
+    color: #ffffff;
+}
+
+.instagram a:hover {
+    color: #e1306c;
+}
+
+.copy {
+    margin-top: 2em;
+}
+
+.copy span {
+    font-weight: bold;
+    color: #FFBB33;
+}
+
+.navbar {
+    background-color: #05347a;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
