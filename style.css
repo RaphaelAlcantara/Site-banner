@@ -53,14 +53,21 @@ body {
 }
 
 /*responsividade 2 colunas*/
-@media (max-width: 1200px) {
+@media (max-width: 1198px) {
     .catalogo {
         flex-direction: row;
     }
 }
 
 /*responsividade 1 coluna*/
-@media (max-width: 800px) {
+@media (max-width: 820px) {
+    .catalogo {
+        flex-direction: column;
+    }
+}
+
+/*minimo da tela*/
+@media (max-width: 420px) {
     .catalogo {
         flex-direction: column;
     }
