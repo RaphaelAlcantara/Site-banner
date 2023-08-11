@@ -72,3 +72,12 @@ body {
         flex-direction: column;
     }
 }
+
+/*Editando linkvendas*/
+#linkvendas {
+    color: #fff;
+    margin-top: 1.4em;
+    margin-left: .1em;
+    /*sublinhar*/
+    text-decoration: underline;
+}
