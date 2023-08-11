@@ -33,6 +33,9 @@ body {
 
 .card {
     margin-top: 1rem;
+    /*sombra*/
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.6);
+    border-radius: 0.5em;
 }
 
 #ProtocoloGerenciado {
@@ -109,7 +112,7 @@ footer {
     color: #fff;
     padding: 1em;
     text-align: center;
-    width: 100%;
+
     display: flex;
     justify-content: center;
     align-items: center;
