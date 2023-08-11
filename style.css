@@ -45,9 +45,23 @@ body {
 
 .catalogo {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-direction: column;
+    width: 100%;
 
+}
 
+/*responsividade 2 colunas*/
+@media (max-width: 1200px) {
+    .catalogo {
+        flex-direction: row;
+    }
+}
+
+/*responsividade 1 coluna*/
+@media (max-width: 800px) {
+    .catalogo {
+        flex-direction: column;
+    }
 }
