@@ -1,5 +1,10 @@
 body {
-    background: url("assets/Fundo-share.jpeg") no-repeat fixed;
+    /*transparencia na imagem do background*/
+
+
+    /*background: url("assets/Fundo-share.jpeg") no-repeat fixed;*/
+    /*gradient color*/
+    background: linear-gradient(#FE9645, #1C5886, #67D8D0) no-repeat fixed;
     background-size: cover;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -12,7 +17,7 @@ body {
 
 .botaoFechar {
     /*laranja*/
-    background-color: #F4A400;
+    background-color: #ec730f;
     border: none;
     color: white;
     padding: 0.5em 1em;
@@ -22,7 +27,7 @@ body {
 }
 
 .botaoFechar:hover {
-    background-color: #FFBB33;
+    background-color: #ffaa00;
     color: #fff;
 }
 
