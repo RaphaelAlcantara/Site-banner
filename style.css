@@ -4,7 +4,7 @@ body {
 
     /*background: url("assets/Fundo-share.jpeg") no-repeat fixed;*/
     /*gradient color*/
-    background: linear-gradient(#FE9645, #1C5886, #67D8D0) no-repeat fixed;
+    background: white;
     background-size: cover;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -63,6 +63,7 @@ body {
 }
 
 .titulo {
+    color: #05347a;
     margin-top: 1em;
 
 }
@@ -99,7 +100,7 @@ body {
 
 /*Editando linkvendas*/
 #linkvendas {
-    color: #fff;
+    color: #05347a;
     margin-top: 1.4em;
     margin-left: .1em;
     /*sublinhar*/
