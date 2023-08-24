@@ -25,6 +25,7 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
+
 }
 
 .botaoFechar:hover {
@@ -79,16 +80,22 @@ body {
 }
 
 /*responsividade 2 colunas*/
-@media (max-width: 1198px) {
+@media (max-width: 1200px) {
     .catalogo {
+        display: flex;
         flex-direction: row;
+        justify-content: space-around;
+        align-items: end;
     }
 }
 
 /*responsividade 1 coluna*/
 @media (max-width: 859px) {
     .catalogo {
+        display: flex;
         flex-direction: column;
+        justify-content: space-around;
+
     }
 }
 
@@ -96,6 +103,8 @@ body {
 @media (max-width: 420px) {
     .catalogo {
         flex-direction: column;
+        justify-content: space-around;
+
     }
 }
 
