@@ -85,7 +85,7 @@ body {
 }
 
 /*responsividade 1 coluna*/
-@media (max-width: 766px) {
+@media (max-width: 859px) {
     .catalogo {
         flex-direction: column;
     }
